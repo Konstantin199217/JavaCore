@@ -1,10 +1,10 @@
-package Logic;
+package logic;
 
-import Model.Calculator;
+import model.Calculator;
 
 import java.util.Scanner;
 
-public class CalculatLogic {
+public class CalculateLogic {
     public void start() {
         String nums = getNums();
         calculate(nums);

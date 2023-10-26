@@ -1,9 +1,11 @@
 package Sample;
 
-import Logic.CalculatLogic;
+
+import logic.CalculateLogic;
+
 public class Main {
     public static void main(String[] args) {
-        CalculatLogic test = new CalculatLogic();
+        CalculateLogic test = new CalculateLogic();
         test.startTest(2,"+",2);
         System.out.println(" ");
         test.startTest(2,"/",2);
